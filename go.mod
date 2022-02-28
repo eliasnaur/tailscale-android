@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	eliasnaur.com/font v0.0.0-20200617114307-e02d32decb4b
-	gioui.org v0.0.0-20211016064351-4d22a926a9dd
+	gioui.org v0.0.0-20220228171706-79bfd3adbd32
 	gioui.org/cmd v0.0.0-20210925100615-41f3a7e74ee6
 	golang.org/x/exp v0.0.0-20210722180016-6781d3edade3
 	golang.org/x/sys v0.0.0-20220128215802-99c3d69c2c27
@@ -15,8 +15,7 @@ require (
 
 require (
 	gioui.org/cpu v0.0.0-20210817075930-8d6a761490d2 // indirect
-	gioui.org/shader v1.0.4 // indirect
-	github.com/BurntSushi/toml v0.4.1 // indirect
+	gioui.org/shader v1.0.6 // indirect
 	github.com/akavel/rsrc v0.10.1 // indirect
 	github.com/akutz/memconn v0.1.0 // indirect
 	github.com/alexbrainman/sspi v0.0.0-20210105120005-909beea2cc74 // indirect
@@ -61,6 +60,5 @@ require (
 	golang.zx2c4.com/wintun v0.0.0-20211104114900-415007cec224 // indirect
 	golang.zx2c4.com/wireguard/windows v0.4.10 // indirect
 	gvisor.dev/gvisor v0.0.0-20220126021142-d8aa030b2591 // indirect
-	honnef.co/go/tools v0.2.2 // indirect
 	nhooyr.io/websocket v1.8.7 // indirect
 )
