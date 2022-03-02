@@ -52,7 +52,7 @@ endif
 
 $(DEBUG_APK): toolchain
 	mkdir -p android/libs
-	go run gioui.org/cmd/gogio -buildmode archive -target android -appid $(APPID) -o $(AAR) github.com/tailscale/tailscale-android/cmd/tailscale
+	go run gioui.org/cmd/gogio -buildmode archive -target android -appid $(APPID) -tags novulkan -o $(AAR) github.com/tailscale/tailscale-android/cmd/tailscale
 	(cd android && ./gradlew assemblePlayDebug)
 	mv android/build/outputs/apk/play/debug/android-play-debug.apk $@
 
